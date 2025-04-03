@@ -1,0 +1,21 @@
+// Satyam : write a function add two number
+
+function(a,b){
+    return a+b;
+}
+const result = function("Satyam","Maurya");
+console.log(result); // output SatyamMaurya
+
+/*
+Man lo ham kisi compony ke liye function likh rahe hai add two number 
+but team member ko nahi pta ki kya argumnet pass karna hai isliye javascript ke jagah 
+Tyoescript me function likhte hai
+javascript is loosey type language hai
+*/
+
+Typescript  --->>>
+
+ function add(a:number,b:number){
+    return a+b;
+ }
+ const r = function(2,3);
